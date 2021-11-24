@@ -1,0 +1,29 @@
+*{
+	font-family: 'Anton',gorgia ;
+	font-weight: 100;
+	fout-size: 30px;
+}
+div{
+	width: 120px;
+	height: 120px;
+	display: block;
+	background: yellow;
+}
+.caja1{
+	background-color: red;
+}
+.caja2{
+	background-color: green;
+	position: relative;							/*inicializa la ubicacion de la caja desde donde se ecuentra*/
+	top:100px;									/*mueve la caja*/
+	left: 75px;
+	z-index: 100;								/*coloca a la caja 2 en la capa de visibilidad numero 100(funciona como las capas de illustrator)*/
+}
+.caja3{
+	background-color: blue;
+	position: relative;	
+	z-index: 10;								/*coloca a la caja 3 en la capa de visibilidad numero 10(funciona como las capas de illustrator)*/
+}
+.caja4{
+	background-color: yellow;
+}
